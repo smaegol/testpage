@@ -1,6 +1,7 @@
 # Working with nanopore file formats
 Agnieszka Czarnocka-Cieciura,Pawel S Krawczyk,Natalia Gumińska
 
+- [Working with nanopore file formats](#working-with-nanopore-file-formats)
 - [Prerequisities](#prerequisities)
   - [Software](#software)
   - [Data](#data)
@@ -10,9 +11,11 @@ Agnieszka Czarnocka-Cieciura,Pawel S Krawczyk,Natalia Gumińska
 - [POD5 files](#pod5-files)
   - [introduction](#introduction)
   - [pod5 python library](#pod5-python-library)
-    - [Viewing pod5 files.](#viewing-pod5-files.)
+    - [Viewing pod5 files.](#viewing-pod5-files)
     - [Read details](#read-details)
   - [Format conversion](#format-conversion)
+      - [POD5 to FAST5](#pod5-to-fast5)
+      - [FAST5 to POD5](#fast5-to-pod5)
 - [FAST5 files](#fast5-files)
   - [Inspecting fast5 files](#inspecting-fast5-files)
 
@@ -55,15 +58,19 @@ format DATE_TIME_DEVID_FLOWCELLID_RUNID (for example:
   (e.g. FAX66946)
 - **RUNID** - unique identifier of the current run
 
-<div>
 
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+
+> [!NOTE]
 > **Exercises:**
 >
 > 1.  Please identify of the elements of folder names in the folder
 >     /home/kurs/raw
 > 2.  Please list the content of each folder
 
-</div>
+
 
 ## Folder structure
 
