@@ -62,6 +62,16 @@ format DATE_TIME_DEVID_FLOWCELLID_RUNID (for example:
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
+<details>
+<summary><b>Exercises</b></summary>
+>
+> 1.  Please identify of the elements of folder names in the folder
+>     /home/kurs/raw
+> 2.  Please list the content of each folder
+
+
+
+</details>
 
 > [!NOTE]
 > **Exercises:**
