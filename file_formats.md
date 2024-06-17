@@ -1,9 +1,3 @@
----
-layout: page
-title: "Formatis"
-permalink: /file_formats.html
----
-
 
 # Working with nanopore file formats
 
@@ -67,21 +61,7 @@ format DATE_TIME_DEVID_FLOWCELLID_RUNID (for example:
 - **RUNID** - unique identifier of the current run
 
 
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 
-<details>
-<summary><b>Exercises</b></summary>
->
-> 1.  Please identify of the elements of folder names in the folder
->     /home/kurs/raw
-> 2.  Please list the content of each folder
-
-
-
-</details>
-
-> [!NOTE]
 > **Exercises:**
 >
 > 1.  Please identify of the elements of folder names in the folder
@@ -109,7 +89,7 @@ of them we will use later for sequencing QC.
 | bam_pass, bam_fail     | If reference mapping was enabled during sequencing these folders will contain bam files with results of mapping                                                        |
 | sequencing_summary\_\* | table with basic information on each sequenced read, including: read_id, names of files containing this read (pod5, fastq, fast5, bam), read length, mean quality, etc |
 
-<div>
+
 
 > **Exercises**
 >
@@ -118,15 +98,12 @@ of them we will use later for sequencing QC.
 > 2.  Find as much as possible about read with id
 >     “ea0389c8-b3e1-475f-976a-ef2b676a21ac”
 
-</div>
 
-<div>
 
 > **Tip**
 >
 > use `less -S` to prevent line wrapping when viewing wide files.
 
-</div>
 
 # POD5 files
 
@@ -203,7 +180,6 @@ on `pod5 view -L`):
 - **flow_cell_id** The flow cell id
 - **pore_type** Name of the pore in this well
 
-<div>
 
 > **Exercises**
 >
@@ -212,14 +188,14 @@ on `pod5 view -L`):
 > 2.  How many rows (reads) has each file?
 > 3.  For selected pod5 file, output all read ids to file.
 
-</div>
+
 
 ### Read details
 
 It is also possible to get more detailed information on each read using
 `pod5 inspect read` command.
 
-<div>
+
 
 > **Exercises**
 >
@@ -227,7 +203,7 @@ It is also possible to get more detailed information on each read using
 > 2.  What was the sequencing kit used for sequencing?
 > 3.  What was the version of MinKNOW software used?
 
-</div>
+
 
 ## Format conversion
 
@@ -291,14 +267,14 @@ To convert the whole run with fast5 files, use a command:
 This will convert each fast5 file to pod5 file in a 1:1 manner. Output
 files will be saved in the `pod5` folder.
 
-<div>
+
 
 > **Exercises**
 >
 > 1.  Convert pod5 files located in the sample1 folder to fast5
 > 2.  Convert back from fast5 to pod5
 
-</div>
+
 
 # FAST5 files
 
