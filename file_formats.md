@@ -1,3 +1,7 @@
+layout: page
+title: "Formatis"
+permalink: /file_formats.html
+
 # Working with nanopore file formats
 Agnieszka Czarnocka-Cieciura,Pawel S Krawczyk,Natalia Gumińska
 
